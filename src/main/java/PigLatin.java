@@ -27,6 +27,7 @@ public class PigLatin {
 	        System.out.println(pigLatin(lines[i]));
 	    }
     }
+   int storeI = 0;
    public int findFirstVowel(String sWord){
   for (int i = 0; i < sWord.length(); i++) {
   if (sWord.charAt(i)=='a' || sWord.charAt(i)=='e' || sWord.charAt(i)=='i' ||sWord.charAt(i)=='o' || sWord.charAt(i)=='u'){
